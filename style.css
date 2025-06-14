@@ -1,0 +1,464 @@
+/* GENERAL */
+body {
+    font-family: "lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0.5px solid rgb(255, 255, 255);
+    box-shadow:  0 0 8px #fff,
+    inset 0 0 4px #fff,
+    0 0 8px #fbfbfc,
+    inset 0 0 16px #fcfcfd,
+    0 0 16px #f8f8f8,
+    inset 0 0 32px #fefefe;
+}
+
+section {
+    padding: 65px 0 65px 0;
+}
+
+section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+section .heading h2{
+    text-transform: uppercase;
+}
+
+.divider{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(68, 68, 68);
+    margin: 0 auto 20px;
+}
+
+ul{
+    list-style: none; 
+ }
+
+/* NAVBAR */
+.navbar {
+    background-color: rgb(208, 205, 205);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(250, 249, 249);
+}
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-link {
+    color: rgb(15, 15, 15) !important;
+    margin: 0 6px;
+}
+.nav-link.active,
+.nav-link:hover {
+    background-color: white;
+    color: #0a0a0a !important;
+}
+
+.navbar-toggler {
+    border : 1px solid rgb(255, 255, 255);
+}
+.navbar-toggler:hover {   
+    box-shadow:  0 0 8px #fff,
+    inset 0 0 8px #fafafa,
+    0 0 16px rgb(208, 105, 25),
+    inset 0 0 16px #fbfbfb,
+    0 0 32px #fefefe,
+    inset 0 0 32px #f7f7f6; 
+}
+
+.button1{
+    color: rgb(68, 68, 68);
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 18px 50px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease-in 0s;
+    box-shadow: 2px 2px 2px rgb(138, 138, 138);
+    background: transparent;
+}
+.button1:hover {
+    background: rgb(247, 245, 245);
+    color: rgb(106, 106, 106);
+    border: 1px solid rgb(208, 105, 25);
+}
+
+
+/* ABOUT */
+#about {
+ background-color: rgb(208, 204, 204);
+}
+
+.profile-picture {
+    text-align: center;
+    margin: 0px auto 30px;
+}
+
+#about .heading h1 {
+    color: rgb(68, 68, 68);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#about .heading h3 {
+    color: rgb(106, 106, 106);
+}
+
+/* SKILLS */
+#skills .heading h2 {
+    color: rgb(68, 68, 68);
+}
+#skills .progress {
+    height: 45px;
+    margin: 30px 20px;
+    border: 1px solid rgb(110, 110, 110);
+
+}
+#skills .progress:last-child {
+    margin-bottom: 0px;
+}
+#skills .progress-bar {
+    background-color: #616060;   
+}
+#skills .progress-bar h5 {
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+#skills .progress:hover {
+    background: rgb(247, 245, 245);
+    color: rgb(106, 106, 106);
+    border: 1px solid rgb(10, 10, 10);
+}
+#skills .progress-bar:hover {
+    background-color: rgb(208, 105, 25);
+}
+
+#skills .progress-bar h5:hover {
+    font-size: 14px;
+}
+
+/* EXPERIENCE */
+#experience {
+    background-color: rgb(208, 204, 204);
+}
+#experience .heading h2 {
+    color: rgb(68, 68, 68);
+}
+.timeline {
+    padding: 30px 10px;
+    position: relative;
+}
+.timeline:before {
+    content: " ";
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 5px;
+    background-color: #f6f3f3;
+    left: 50%;
+    margin-left: -2.5px;
+    box-shadow:  0 0 8px #fff,
+    inset 0 0 4px #fff,
+    0 0 8px #fbfbfc,
+    inset 0 0 16px #fcfcfd,
+    0 0 16px #f8f8f8,
+    inset 0 0 32px #fefefe;
+}
+
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline li .timeline-badge {
+    color: rgb(103, 103, 103);
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow:  0 0 8px #fff,
+    inset 0 0 4px #fff,
+    0 0 8px #fbfbfc,
+    inset 0 0 16px #fcfcfd,
+    0 0 16px #f8f8f8,
+    inset 0 0 32px #fefefe;
+}
+.timeline li .timeline-badge:hover{
+    color: rgb(208, 105, 25);
+}
+
+.timeline-panel-container {
+    width: 50%;
+    float: left;
+}
+.timeline-panel-container-inverted {
+    width: 50%;
+    float: right;
+}
+.timeline-panel {
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #fcfbfb;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
+    background-color: #fff;
+}
+
+.timeline-panel:hover {
+    box-shadow:  0 0 8px #fff,
+    inset 0 0 8px #fafafa,
+    0 0 16px rgb(208, 105, 25),
+    inset 0 0 16px #fbfbfb,
+    0 0 32px #fefefe,
+    inset 0 0 32px #f7f7f6;
+}
+
+.timeline-panel-container-inverted .timeline-panel {
+    float: left;
+    margin-left: 40px;
+}
+.timeline-panel:after {
+    position:absolute;
+    top: 27px;
+    right: -14px;
+    display:inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+.timeline-panel-container-inverted .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline-heading h3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.timeline-heading h3:hover{
+    color: rgb(208, 105, 25);
+}
+
+.timeline-heading h4 {
+    color: rgb(106, 106, 106);
+    font-size: 18px;
+}
+
+/* EDUCATION */
+#education {
+    background-color: rgb(254, 254, 254);
+}
+#education .heading h2 {
+    color: rgb(106, 106, 106);
+    margin: 15px 0px;
+    
+}
+.education-block {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(208, 204, 204);
+    border-radius: 5px;
+    border: 1px solid rgb(12, 12, 12);
+    margin-bottom: 20px;
+}
+
+.education-block:hover {
+    box-shadow:  0 0 8px #fff,
+    inset 0 0 8px #fafafa,
+    0 0 16px rgb(208, 105, 25),
+    inset 0 0 16px #fbfbfb,
+    0 0 32px #fefefe,
+    inset 0 0 32px #f7f7f6;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.education-block h5{
+    color: rgb(106, 106, 106);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.education-block span{
+    color: rgb(7, 7, 7);
+    font-size: 35px;  
+}
+.education-block h3{
+    color: rgb(1, 1, 1);
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+.education-block h3:hover{
+    color: rgb(208, 105, 25);
+}
+
+.education-block h4{
+    color: rgb(246, 243, 243);
+    text-shadow: 1px 1px 1px rgb(138, 138, 138);
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+/* PORTFOLIO */
+#portfolio {
+    background-color: rgb(208, 204, 204);
+}
+#portfolio .heading h2 {
+    color: rgb(106, 106, 106);
+}
+#portfolio img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(90%);
+    -webkit-filter: grayscale(90%);
+    box-shadow:  0 0 8px #fff,
+    inset 0 0 8px #fafafa,
+    0 0 16px rgb(208, 105, 25),
+    inset 0 0 16px #fbfbfb,
+    0 0 32px #fefefe,
+    inset 0 0 32px #f7f7f6;
+}
+#portfolio img:hover {
+     filter: none;
+    -webkit-filter: none; 
+}
+#portfolio .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* RECOMMENDATIONS */
+#recommendations .heading h3 {
+    color: rgb(106, 106, 106);
+    margin: 30px 0px;
+}
+#myCarousel .carousel-item {
+    padding: 30px 30px 90px;
+}
+#myCarousel .carousel-item h4 {
+    color: rgb(68, 68, 68);
+    font-style: italic;
+}
+/* FOOTER */
+footer {
+    background-color: #333;
+    padding: 20px 0 40px;
+}
+footer span {
+    color: rgb(245, 243, 241);
+    font-size: 25px;
+    line-height: 35px;
+}
+footer span:hover {
+    font-size: 27px;
+    color: rgb(208, 105, 25);
+}
+footer h5 {
+    color: white;
+    font-weight: normal;
+}
+
+footer a {
+    color: rgb(252, 251, 249);
+    font-size: 20px;
+}
+footer a:hover {
+    color: rgb(208, 105, 25);
+}
+
+/*CONTACT*/
+#contact{
+    background-color: rgb(208, 204, 204);
+}
+
+#contact .row {
+    justify-content: center; /* Centrage horizontal */
+}
+
+#contact .heading h2 {
+    color: rgb(106, 106, 106);
+}
+#contact-form{
+    font-size: 20px;
+    background-color: rgb(235, 234, 234);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px; /* Limite la largeur pour un bon rendu */
+    margin: auto;     /* Centre le formulaire */
+}
+.orange{
+    color: rgb(208, 105, 25);
+}
+.form-control{
+    height: 50px;
+    font-size: 18px;
+}
+.comments{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(208, 105, 25);
+    height: 25px;
+}
+#contact-form input[type=submit]{
+    margin : 40px auto 0px;
+    display: block;
+}
+
+.thank-you{
+    color: rgb(126, 125, 125);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c3e6cb;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  
