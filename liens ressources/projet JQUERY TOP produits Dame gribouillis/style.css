@@ -79,13 +79,13 @@ header h1
     position: absolute;
     left: 0px;
     opacity: 0.7;
-    background: url("ressources/tikit\ color2S.jpg") no-repeat;
+    background: url("ressources/tikit-2colorS.jpg") no-repeat;
 }
 .Color2
 {   
     position: absolute;
     left: 140px;
-    background: url("ressources/tikit\ color2.jpg") no-repeat;
+    background: url("ressources/tikit-2color.jpg") no-repeat;
 }
 #part3 div
 {   
